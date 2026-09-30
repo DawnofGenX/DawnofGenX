@@ -12,10 +12,12 @@ I work at the seam between applied ML and embedded: models that have to run on a
 |---|---|---|
 | **[Vishwas](https://github.com/DawnofGenX/vishwas)** | ~34K LoC · 445 tests | Zero-cloud WhatsApp verification platform. A user messages a number; URLs, executables/APKs, documents (OCR) and images/audio get checked and answered with a plain-language verdict plus a confidence band, in 7 languages. Routing is deterministic — an LLM only narrates finished verdicts, behind a prompt-injection guard. |
 | **[UARTScope](https://github.com/DawnofGenX/uartscope)** | ~13.9K LoC · 160 tests | "Wireshark for microcontrollers." Bidirectional UART/I²C/SPI/CAN/Modbus decoders, CAN from vendor DBC files, live charts, threshold alerts, session record/replay with golden-baseline diffing, plugin marketplace, MQTT bridge. |
-| **[CiteSure](https://github.com/DawnofGenX/citesure)** | ~9.7K LoC · 288 tests | Local citation verifier (MCP server + CLI). Checks whether a cited source actually *supports* the claim, not just whether the link is alive. Abstention is a first-class output: unverifiable claims return "can't verify" instead of a hallucinated verdict. |
-| **[blind-mcp](https://github.com/DawnofGenX/blind-mcp)** | ~1K LoC · 16 tests | MCP server for company research on Blind, built on an upstream MIT scaffold and extended. |
+| **[CiteSure](https://github.com/DawnofGenX/citesure)** | ~9.7K LoC · 288 tests | Local citation verifier (MCP server + CLI). Checks whether a cited source actually *supports* the claim, not just whether the link is alive. Unverifiable claims return "can't verify" instead of a hallucinated verdict. |
+| **[blind-mcp](https://github.com/DawnofGenX/blind-mcp)** | ~1K LoC · 16 tests | MCP server for company research on Blind, extended from an upstream MIT scaffold. |
 
-Everything above runs with no cloud dependency and no API keys on the default path.
+Everything above runs with no cloud dependency and no API keys. CiteSure's fast
+path is fully offline with `--no-nli`; its NLI tier is opt-in and lazy-downloads a
+local model on first use.
 
 ---
 
