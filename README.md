@@ -1,8 +1,26 @@
 # Hi, I'm Priyansh Kansara 👋
 
-**Applied ML & embedded systems.** 2nd-year Electronics & Telecommunication at KJ Somaiya College of Engineering (CGPA 9.15/10). I build verification and telemetry tools in Python, and I ship fixes into projects I don't maintain.
+**WhatsApp automation for Indian D2C brands**, plus applied ML and embedded systems in Python. 2nd-year Electronics & Telecommunication at KJ Somaiya College of Engineering (CGPA 9.15/10).
+
+I build and sell WhatsApp automation — order confirmations, delay alerts, keyword replies, broadcasts, AI replies with human handoff — and I ship fixes into projects I don't maintain. Currently taking on a small number of automation projects; details at [dawnofgenx.github.io](https://dawnofgenx.github.io).
 
 I work at the seam between applied ML and embedded: models that have to run on a CPU-only laptop, and protocols decoded off a serial line.
+
+---
+
+## 💬 WhatsApp automation (client work)
+
+I build and run a WhatsApp automation product for D2C brands — keyword rules, a
+visual flow builder, bulk broadcasts, AI replies with human handoff, and a
+shared team inbox.
+
+- **[81-second product demo](https://dawnofgenx.github.io/demo.html)** — a recording of the live deployment, not a mockup
+- **[7 articles on dev.to](https://dev.to/dawnofgenx)** — WhatsApp Business API, COD confirmation bots, broadcast at scale, API pricing in India, vendor comparison
+- **[Vishwas](https://github.com/DawnofGenX/vishwas)** — a WhatsApp-first verification platform, open source
+
+Pricing is a two-week paid pilot on one flow, fixed price, no lock-in. I have
+not yet done paid client work, so I lead with the product, the code and the
+writing rather than a client list.
 
 ---
 
@@ -14,6 +32,9 @@ I work at the seam between applied ML and embedded: models that have to run on a
 | **[UARTScope](https://github.com/DawnofGenX/uartscope)** | ~13.9K LoC · 160 tests | "Wireshark for microcontrollers." Bidirectional UART/I²C/SPI/CAN/Modbus decoders, CAN from vendor DBC files, live charts, threshold alerts, session record/replay with golden-baseline diffing, plugin marketplace, MQTT bridge. |
 | **[CiteSure](https://github.com/DawnofGenX/citesure)** | ~9.7K LoC · 288 tests | Local citation verifier (MCP server + CLI). Checks whether a cited source actually *supports* the claim, not just whether the link is alive. Unverifiable claims return "can't verify" instead of a hallucinated verdict. |
 | **[blind-mcp](https://github.com/DawnofGenX/blind-mcp)** | ~1K LoC · 16 tests | MCP server for company research on Blind, extended from an upstream MIT scaffold. |
+
+> The WhatsApp automation product's source is **private** — it's client-facing
+> work, not a portfolio repo. The demo video and the articles are the public window into it.
 
 Everything above runs with no cloud dependency and no API keys. CiteSure's fast
 path is fully offline with `--no-nli`; its NLI tier is opt-in and lazy-downloads a
