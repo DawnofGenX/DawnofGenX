@@ -18,9 +18,9 @@ shared team inbox.
 - **[7 articles on dev.to](https://dev.to/dawnofgenx)** — WhatsApp Business API, COD confirmation bots, broadcast at scale, API pricing in India, vendor comparison
 - **[Vishwas](https://github.com/DawnofGenX/vishwas)** — a WhatsApp-first verification platform, open source
 
-Pricing is a two-week paid pilot on one flow, fixed price, no lock-in. I have
-not yet done paid client work, so I lead with the product, the code and the
-writing rather than a client list.
+Pricing is a two-week paid pilot on one flow, fixed price, no lock-in. The pilot
+currently handles roughly 35 WhatsApp messages/day for one D2C brand; beyond
+that pilot I lead with the product, the code and the writing rather than a client list.
 
 ---
 
