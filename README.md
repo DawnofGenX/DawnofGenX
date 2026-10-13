@@ -15,7 +15,7 @@ visual flow builder, bulk broadcasts, AI replies with human handoff, and a
 shared team inbox.
 
 - **[81-second product demo](https://dawnofgenx.github.io/demo.html)** — a recording of the live deployment, not a mockup
-- **[7 articles on dev.to](https://dev.to/dawnofgenx)** — WhatsApp Business API, COD confirmation bots, broadcast at scale, API pricing in India, vendor comparison
+- **[18 articles on dev.to](https://dev.to/dawnofgenx)** — WhatsApp Business API, COD confirmation bots, broadcast at scale, API pricing in India, vendor comparison
 - **[Vishwas](https://github.com/DawnofGenX/vishwas)** — a WhatsApp-first verification platform, open source
 
 Pricing is a two-week paid pilot on one flow, fixed price, no lock-in. The pilot
